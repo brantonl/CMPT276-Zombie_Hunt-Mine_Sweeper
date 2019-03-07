@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="BoardRow">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <integer-array name="BoardCol">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+    </integer-array>
+
+    <integer name="defaultBoardRow">4</integer>
+    <integer name="defaultBoardCol">6</integer>
+    <integer name="defaultGameTrial">0</integer>
+
+    <integer-array name="Mines">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+
+    <integer name="defaultMineNum">6</integer>
+</resources>

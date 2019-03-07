@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameUI.Option">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="horizontal"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/OptionPage_Title"
+            android:textColor="@color/White"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/BoardSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/title"
+            android:layout_marginTop="88dp"
+            android:text="@string/board_size"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/MineNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/BoardSize"
+            android:layout_marginStart="214dp"
+            android:text="@string/mines"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="42dp"
+            android:layout_marginEnd="38dp"
+            android:text="@string/erase_times_played"
+            style="@style/MenuButton"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="468dp" />
+
+        <RadioGroup
+            android:id="@+id/BoardSizeOptions"
+            android:layout_width="113dp"
+            android:layout_height="179dp"
+            android:layout_alignStart="@+id/title"
+            android:layout_alignTop="@+id/MineNumOptions"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/MineNumOptions"
+            android:layout_width="121dp"
+            android:layout_height="179dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/MineNum"
+            android:layout_marginTop="136dp"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

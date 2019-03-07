@@ -1,0 +1,31 @@
+<resources>
+    //Home Screen Animation
+    <string name="app_name">Zombie Hunt</string>
+    <string name="skipBtn">Skip</string>
+
+    //Options Page
+    <string name="board_size">Board Size</string>
+    <string name="mines"># Mines</string>
+    <string name="OptionPage_Title">Settings</string>
+    <string name="erase_times_played">Erase times played</string>
+    <string name="BoardConfig">%1$dx%2$d</string>
+    <string name="MineNum">%1$d</string>
+
+    //Game Page
+    <string name="MineDescription">Found %1$d of %2$d mines.</string>
+    <string name="ScanDescription"># Scans used: %1$d</string>
+    <string name="TimesPlayed">Times Played: %1$d</string>
+    <string name="BestScore">Best Score(%1$dx%2$d,%3$d mines): %4$d</string>
+    <string name="defaultGameScore">0,0,0,0,0,0,0,0,0,0,0,0</string>
+    <string name="ScanResult">%1$d</string>
+
+    //Help Page
+    <string name="description">Your village is in great danger! As the warrior, you need to find all the zombies as fast as possible. The numbers in each block represent the number of zombies in that row and column combine. Revealing all the zombies will save your village! -Made by Varun and Branton.</string>
+    <string name="link">Course Homepage : <a href="http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html">http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html</a></string>
+    <string name="copyright1"> Zombie sound: <a href="http://soundbible.com/1059-Mummy-Zombie.html"> http://soundbible.com/1059-Mummy-Zombie.html</a></string>
+    <string name="copyright2"> digging sound: <a href="http://soundbible.com/313-Dig-In-A-Cat-Litter-Box.html">http://soundbible.com/313-Dig-In-A-Cat-Litter-Box.html</a></string>
+
+    //Main Menu
+    <string name="main_menu">Main Menu</string>
+
+</resources>

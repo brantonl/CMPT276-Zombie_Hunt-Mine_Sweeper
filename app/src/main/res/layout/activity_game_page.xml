@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameUI.GamePage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/MineDescription"
+            android:layout_width="143dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/ScanDescription"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:textSize="18sp"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:id="@+id/ScanDescription"
+            android:layout_width="164dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="19dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/White"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TimesPlayed"
+            android:layout_width="134dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/ScanDescription"
+            android:layout_marginBottom="12dp"
+            android:textSize="18sp"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:id="@+id/BestScore"
+            android:layout_width="280dp"
+            android:layout_height="29dp"
+            android:layout_alignStart="@+id/MineDescription"
+            android:layout_alignTop="@+id/TimesPlayed"
+            android:textColor="@color/White"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:id="@+id/Button_Table"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="50dp"
+            android:stretchColumns="*"
+            android:textSize="18sp"
+            android:textColor="@color/White">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
